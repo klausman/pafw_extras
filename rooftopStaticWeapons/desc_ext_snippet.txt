@@ -1,0 +1,7 @@
+This code goes in the `CfgFunctions` section of `description.ext`:
+
+```
+        class gdsn {
+                #include "rooftopStaticWeapons\functions.hpp"
+        };
+```

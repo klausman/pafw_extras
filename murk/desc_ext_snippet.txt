@@ -1,0 +1,12 @@
+This code goes in the `CfgFunctions` section of `description.ext`:
+
+```
+        class MURK
+        {
+                class nearPlayerGround
+                {
+                        file = "murk";
+                        class nearPlayerGround{};
+                };
+        }
+```

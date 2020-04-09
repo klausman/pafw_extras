@@ -1,0 +1,41 @@
+This code goes in the `CfgFunctions` section of `description.ext`:
+
+```
+        class MCCfr
+        {
+                tag = "mccfr";
+
+                class general
+                {
+                        file = "mccfr";
+
+                        class makeUnitsArray
+                        {
+                                description = "returns a unit array consist of all the units from the given function and simulation in format [_cfgclass,_vehicleDisplayName].";
+                        };
+
+                };
+
+                class cas
+                {
+                        file = "mccfr";
+
+                        class createPlane
+                        {
+                                description = "create a flying plane from the given type and return the plane , pilot and group.";
+                        };
+
+
+                };
+
+                class ai
+                {
+                        file = "mccfr";
+
+                        class paratroops
+                        {
+                                description = "Contorol the paratroop reinforcement spawn.";
+                        };
+                };
+        };
+```

@@ -1,0 +1,17 @@
+This code goes in the `CfgFunctions` section of `description.ext`:
+
+```
+        class LV
+        {
+                class AIspawns
+                {
+                        file = "LV";
+                        class spawnAI_buildingAuto{};
+                        class taskPatrol{};
+                        class taskPatrolTown{};
+                        class taskPatrolV{};
+                };
+        };
+
+        #include "p\config.hpp"
+```
